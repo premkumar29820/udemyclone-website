@@ -1,0 +1,264 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    align-items: center;
+}
+
+.navbar-s1__title {
+    color: #AB36F5;
+    align-items: center;
+
+}
+
+.navbar-s2 {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar-s2 input {
+    font-size: 16px;
+    border: none;
+    width: 100%;
+}
+
+.navbar-s2 input:focus {
+    outline: none;
+}
+
+.navbar-s3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.categories {
+    display: flex;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    justify-content: space-around;
+}
+
+.categories p {
+    background-color: #AB36F5;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.categories p:hover {
+    background-color: aliceblue;
+    color: #AB36F5;
+}
+
+.sales-image {
+    position: relative;
+}
+
+.sales-image img {
+    width: 100%;
+    display: block;
+}
+
+.banner-container {
+    width: 35%;
+    padding: 25px;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.banner-text {
+    top: 250px;
+    left: 50px;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.banner-text h1 {
+    margin-bottom: 10px;
+    font-size: clamp(12px, 2vw, 40px);
+    line-height: normal;
+}
+
+.banner-text p {
+    font-size: clamp(10px, 2vw, 20px);
+    line-height: normal;
+}
+
+.recommended {
+    padding: 10px;
+}
+
+.course-card {
+    width: 320px;
+    border: solid transparent 2px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: inset;
+    background: #cccbcb;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.course-card__button {
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+}
+
+.course-card:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.course-card img {
+    width: 100%;
+    height: 50%;
+}
+
+.recommended__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.topics {
+    padding: 10px;
+}
+
+.topics__container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.topics__container :hover {
+    background-color: gainsboro;
+    color: black;
+}
+
+.topics__container p {
+    border: solid black 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    box-shadow: inset;
+    background: transparent;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.popular {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.popular__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.footer-one {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-two {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+
+.footer p {
+    margin: 20px;
+}
+
+.container {
+    background-color: #AB36F5;
+    color: white;
+    padding: 20px;
+    border: solid 2px;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.container a {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 35px;
+
+
+}
+
+.container-table {
+
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.container-table__button {
+    background-color: #AB36F5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 6px;
+    padding-top: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.container-table__button:hover {
+    background-color: aliceblue;
+    color: #AB36F5;
+    border: solid #AB36F5 2px;
+
+}
+
+.container-table__input {
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
